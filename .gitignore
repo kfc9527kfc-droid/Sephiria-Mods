@@ -31,3 +31,6 @@ desktop.ini
 Assembly-CSharp.dll
 Mirror.dll
 UnityEngine*.dll
+
+# Local reverse-engineering notes / game code references
+experiments/morebackpackcapacity/*.txt

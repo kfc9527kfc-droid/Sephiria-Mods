@@ -83,13 +83,29 @@ Mod，并进一步处理了多人联机情况下的奖励同步。
 -   AssetStudio
 -   Visual Studio
 
+## Experiments
+
+`experiments/` 中保留了部分尚未完成的游戏机制实验。
+
+目前包括：
+
+- `MoreBackpackCapacity`：背包容量相关修改实验
+- `MoreEnemyHP`：敌人生命值相关修改实验
+
+这些内容用于记录机制定位、实现尝试和测试过程，目前仍属于 WIP / Experimental 状态，不作为已经完成或完整验证的 Mod 展示。
+
 ## Repository Structure
 
 ``` text
 Sephiria-Mods/
 ├── FullItemPoolRewards/
 ├── MoreEnemiesPerStage/
-└── MoreStartingTalent/
+├── MoreStartingTalent/
+├── experiments/
+│   ├── morebackpackcapacity/
+│   └── MoreEnemyHP/
+├── README.md
+└── .gitignore
 ```
 
 仓库仅保留本人编写和整理的 Mod
