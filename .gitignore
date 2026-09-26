@@ -1,0 +1,33 @@
+# Visual Studio
+.vs/
+**/.vs/
+[Bb]in/
+[Oo]bj/
+**/[Bb]in/
+**/[Oo]bj/
+
+# Build / debug files
+*.dll
+*.pdb
+*.exe
+*.cache
+
+# User-specific Visual Studio files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# NuGet
+packages/
+*.nupkg
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Game assemblies / decompiled game files
+Assembly-CSharp.dll
+Mirror.dll
+UnityEngine*.dll
